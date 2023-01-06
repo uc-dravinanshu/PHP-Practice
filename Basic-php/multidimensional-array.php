@@ -5,7 +5,7 @@ $languages = [
         'creator'=>'Resmus Redorf',
         'extension' =>'.php',
         'isOpenSource'=>true,
-        'versions'=> ['varsion'=>1.1, 'Release'=>'1-jan-2022'],
+        'versions'=> ['varsion'=>1.1, 'Release'=>'oct 5, 2022'],
     ],
     'Python'=> [
       'creator' => 'Guido Van Ressum',
