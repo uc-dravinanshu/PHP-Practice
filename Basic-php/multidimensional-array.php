@@ -5,7 +5,7 @@ $languages = [
         'creator'=>'Resmus Redorf',
         'extension' =>'.php',
         'isOpenSource'=>true,
-        'versions'=> ['varsion'=>1.1, 'Release'=>'oct 5, 2022'],
+        'versions'=> ['version'=>1.1, 'release'=>'oct 5, 2022'],
     ],
     'Python'=> [
       'creator' => 'Guido Van Ressum',
@@ -19,5 +19,10 @@ $languages = [
 echo "<pre>";
 print_r($languages);
 echo "</pre>";
+
+//how to get php key value.
+echo $languages['PHP']['versions']['version']."<br/>";  //php key in, versions key in version key.
+echo $languages['PHP']['versions']['release']."<br/>";
+echo $languages['PHP']['extension']."<br/>";
 
 ?>
